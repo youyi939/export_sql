@@ -19,7 +19,7 @@ import java.io.Serializable;
  */
 @Service
 @DS("slave_1")
-public class ShengshiStudentManagementServiceImpl extends SysServiceImpl<ShengshiStuManagementMapper, ShengshiStuManagement> implements ShengshiStuManagementService {
+public class ShengshiStuManagementServiceImpl extends SysServiceImpl<ShengshiStuManagementMapper, ShengshiStuManagement> implements ShengshiStuManagementService {
 
 
     @Override

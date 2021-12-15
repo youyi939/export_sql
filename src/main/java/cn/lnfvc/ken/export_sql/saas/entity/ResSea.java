@@ -410,31 +410,6 @@ public class ResSea extends BaseEntity {
     private String loginUuid;
 
 
-    @ApiModelProperty("主家长姓名")
-    private String mainName;
-
-    @ApiModelProperty("主家长手机号")
-    private String mainPhone;
-
-    @ApiModelProperty("主家长关系")
-    private String mainType;
-
-    @ApiModelProperty("主家长登陆系统的uuid，就是userUuid")
-    private String mainSysUuid;
-
-
-    @ApiModelProperty("次家长姓名")
-    private String secName;
-
-    @ApiModelProperty("次家长手机号")
-    private String secPhone;
-
-    @ApiModelProperty("次家长关系")
-    private String secType;
-
-    @ApiModelProperty("次家长登陆系统的uuid，就是userUuid")
-    private String secSysUuid;
-
 
 }
 
